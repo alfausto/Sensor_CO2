@@ -1,0 +1,80 @@
+body {
+    background-color: #01579B;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.etiqueta {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabla {
+    width: 80%;
+    margin: 0 auto;
+}
+td{
+    height: 40px;
+}
+.centrar {
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.centrar2 {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.boton{
+    padding: 5px
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-small;
+}
+.vactual {
+    font-size: x-small;
+    color: white;
+    font-style: italic;
+}
+.opcional {
+    color: white;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-left: 4px;
+}
